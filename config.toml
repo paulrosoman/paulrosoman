@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Paul Rosoman"
 theme = "hugo-initio"
-publishDir = "docs"
+publishDir = "public"
 
 [params]
     name = "Paul Rosoman"
