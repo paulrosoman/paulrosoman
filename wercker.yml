@@ -29,4 +29,4 @@ deploy:
         gh_oauth: $GIT_TOKEN
         repo: paulrosoman/paulrosoman.github.io
         branch: master
-        basedir: .
+        basedir: public
