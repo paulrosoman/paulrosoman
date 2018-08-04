@@ -1,15 +1,15 @@
 box: debian
 build:
-    steps:
-        - arjen/hugo-build:
-            version: "0.42.1"
-            theme: hugo-initio
+  steps:
+    - arjen/hugo-build:
+        version: "0.42.1"
+        theme: hugo-initio
 deploy:
-    steps:
-        - install-packages:
-            packages: git ssh-client
-        - leipert/git-push:
-            gh_oauth: $GIT_TOKEN
-            repo: paulrosoman/paulrosoman.github.io
-            branch: master
-            basedir: public
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - leipert/git-push:
+        gh_oauth: $GIT_TOKEN
+        repo: paulrosoman/paulrosoman.github.io
+        branch: master
+        basedir: public
