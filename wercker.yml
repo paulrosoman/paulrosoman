@@ -25,7 +25,8 @@ deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    - lukevivier/gh-pages@0.2.1:
-        token: $GIT_TOKEN
-        domain: paulrosoman.github.io
-        basedir: public
+    - leipert/git-push:
+        gh_oauth: $GIT_TOKEN
+        repo: paulrosoman/paulrosoman.github.io
+        branch: master
+        basedir: .
