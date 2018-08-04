@@ -4,7 +4,7 @@ build:
     - arjen/hugo-build:
         version: "0.42.1"
         theme: hugo-initio
-        flags: --buildDrafts=true
+        flags: --buildDrafts
 deploy:
   steps:
     - install-packages:
