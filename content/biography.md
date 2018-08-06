@@ -1,7 +1,6 @@
 ---
 title: "Biography"
 date: 2018-08-06T13:34:38+01:00
-draft: true
 ---
 
 Paul Rosoman
