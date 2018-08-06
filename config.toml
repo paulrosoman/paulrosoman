@@ -9,10 +9,10 @@ publishDir = "public"
     description = "International Concert Organist"
     email = "hello@paulrosoman.com"
     phone = "+234 23 9873237"
-    address = "234 Hidden Pond Road, Ashland City, TN 37015"
+    address = "P.O. Box 5845 Wellington 6145 \n New Zealand"
     year = 2018
     background = ""
-    favicon = "images/gt_favicon.png"
+    favicon = "images/pr_favicon.ico"
     DateForm = "January 2, 2006"
 
     showSubheader = true
@@ -31,12 +31,20 @@ publishDir = "public"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "diary"
-    url = "/performance-diary/"
+    name = "biography"
+    url = "/biography"
     weight = 2
 [[menu.main]]
-    name = "blog"
-    url = "/posts/"
+    name = "diary"
+    url = "/performance-diary/"
+    weight = 3
+[[menu.main]]
+    name = "press book"
+    url = "/reviews"
+    weight = 4
+[[menu.main]]
+    name = "contact"
+    url = "/contact"
     weight = 5
 
 [params.google.analytics]
