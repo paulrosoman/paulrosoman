@@ -8,18 +8,18 @@ publishDir = "public"
     name = "Paul Rosoman"
     description = "International Concert Organist"
     email = "hello@paulrosoman.com"
-    phone = "+234 23 9873237"
-    address = "P.O. Box 5845 Wellington 6145 \n New Zealand"
+    phone = ""
+    address = "P.O. Box 5845<br>Wellington 6145<br>New Zealand"
     year = 2018
     background = ""
     favicon = "images/pr_favicon.ico"
     DateForm = "January 2, 2006"
 
     showSubheader = true
-    showServices = true
-    showRecentWorks = true
-    showDownload = true
-    showClients = true
+    showServices = false
+    showRecentWorks = false
+    showDownload = false
+    showClients = false
 
     footerEnableContact = true
     footerEnableFollowme = true
@@ -46,6 +46,10 @@ publishDir = "public"
     name = "contact"
     url = "/contact"
     weight = 5
+[[menu.main]]
+    name = "shop"
+    url = "/shop"
+    weight = 6
 
 [params.google.analytics]
     trackerID = "GA-000000000-0"
@@ -71,3 +75,6 @@ publishDir = "public"
     footer = false
     sharethis = true
     network = "email"
+
+[blackfriday]
+    extensions = ["hardLineBreak"]
