@@ -7,7 +7,7 @@ publishDir = "public"
 [params]
     name = "Paul Rosoman"
     description = "International Concert Organist"
-    email = "hello@paulrosoman.com"
+    email = ""
     phone = ""
     address = "P.O. Box 5845<br>Wellington 6145<br>New Zealand"
     year = 2018
@@ -16,10 +16,10 @@ publishDir = "public"
     DateForm = "January 2, 2006"
 
     showSubheader = true
-    showServices = true
-    showRecentWorks = true
-    showDownload = true
-    showClients = true
+    showServices = false
+    showRecentWorks = false
+    showDownload = false
+    showClients = false
 
     footerEnableContact = true
     footerEnableFollowme = true
@@ -52,7 +52,7 @@ publishDir = "public"
     weight = 6
 
 [params.google.analytics]
-    trackerID = "GA-000000000-0"
+    trackerID = "UA-23993065-2"
 
 [[params.social]]
 	title = "facebook"
