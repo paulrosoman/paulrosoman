@@ -7,10 +7,10 @@ publishDir = "public"
 [params]
     name = "Paul Rosoman"
     description = "International Concert Organist"
-    email = ""
+    email = "paul@paulrosoman.com"
     phone = ""
     address = "P.O. Box 5845<br>Wellington 6145<br>New Zealand"
-    year = 2018
+    year = 2019
     background = ""
     favicon = "images/pr_favicon.ico"
     DateForm = "January 2, 2006"
@@ -23,8 +23,8 @@ publishDir = "public"
 
     footerEnableContact = true
     footerEnableFollowme = true
-    footerEnableTextWidget = true
-    footerEnableFormWidget = true
+    footerEnableTextWidget = false
+    footerEnableFormWidget = false
 
 [[menu.main]]
     name = "home"
@@ -63,8 +63,15 @@ publishDir = "public"
     network = "facebook"
 [[params.social]]
 	title = "linkedin"
-	url = "https://www.linkedin.com/in/nickname"
+	url = "https://nz.linkedin.com/in/paul-rosoman-5528b737"
     icon = "fa-linkedin-square"
+    footer = true
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+	title = "instagram"
+	url = "https://instagram.com/paulrosoman"
+    icon = "fa-instagram"
     footer = true
     sharethis = true
     network = "linkedin"

@@ -22,10 +22,10 @@
             {{ partial "clients.html" . }}
         {{ end }}
 
-        {{ range (where (.Paginator.Pages.ByParam "performancedate") "Params.performancedate" ">" (dateFormat .Site.Params.DateForm now)) }}
-            <div>
+        {{ range first 1 (where (.Paginator.Pages.ByParam "performancedate") "Params.performancedate" ">" (now.Format "2006-01-01")) }}
+            <div class="next-date">
                 <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
-                <time class="entry-date published" date="{{ .Params.performancedate }}">{{ dateFormat .Site.Params.DateForm .Params.performancedate }}</time>
+                {{ .Content }}
             </div>
         {{ end }}
 

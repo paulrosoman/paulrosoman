@@ -473,6 +473,13 @@ img {
   color: #000000;
   background: none;
 }
+.next-date {
+  padding: 1rem 2rem 0.1rem;
+  max-width: 400px;
+  margin: 1rem auto 2rem;
+  background-color: rgba(255, 0, 0, 0.1);
+  border: 1px solid #bd1550;
+}
 /*********************************************************************
                                  BLOG
 **********************************************************************/

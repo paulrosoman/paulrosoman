@@ -9,7 +9,7 @@
           <a href="/performance-diary">2018</a>
           <a href="/performance-diary/2017">2017</a>
         </div>-->
-        {{ range .Paginator.Pages.ByParam "performancedate" }}
+        {{ range (sort (.Paginator.Pages.ByParam "performancedate") "value" "desc") }}
           <article class="post">
             <header class="entry-header">
               <div class="entry-meta">
