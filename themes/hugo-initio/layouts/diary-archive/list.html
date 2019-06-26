@@ -9,8 +9,8 @@
           <a href="/performance-diary">2018</a>
           <a href="/performance-diary/2017">2017</a>
         </div>-->
-        <h1 class="entry-title">Diary</h1>
-        {{ range (where (.Pages.ByParam "performancedate") "Params.performancedate" ">" (now.Format "2006-01-01")) }}
+        <h1 class="entry-title">Past concerts</h1>
+        {{ range (where (.Site.Pages.ByParam "performancedate") "Params.performancedate" "<" (now.Format "2006-01-01")).Reverse }}
           <article class="post diary">
             <header class="entry-header">
               <div class="entry-meta">
@@ -24,7 +24,6 @@
             </header>
           </article>
         {{ end }}
-        <a href="/diary-archive/">Past concerts</a>
       </div>
     </div>
     <center class="">
