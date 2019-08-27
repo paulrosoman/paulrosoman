@@ -22,7 +22,7 @@
             {{ partial "clients.html" . }}
         {{ end }}
 
-        {{ range first 1 (where (.Paginator.Pages.ByParam "performancedate") "Params.performancedate" ">" (now.Format "2006-01-01")) }}
+        {{ range first 1 (where (.Paginator.Pages.ByParam "performancedate") "Params.performancedate" ">" (now.Format "2006-01-02")) }}
             <div class="next-date">
                 <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
                 {{ .Content }}
