@@ -1,4 +1,4 @@
-baseURL = "https://paulrosoman.github.io/"
+baseURL = "https://paulrosoman.com/"
 languageCode = "en-us"
 title = "Paul Rosoman"
 theme = "hugo-initio"
